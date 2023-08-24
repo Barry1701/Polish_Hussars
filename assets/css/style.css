@@ -1,12 +1,15 @@
-nav {
-    background-color: #bada55;
+
+body {
+    margin: 0;
+    padding: 0;
 }
 header {
-    background-color: #008B8B;
+    background-color: #FF6347;
+    padding: 20px;
 }
 main {
-background-color: #FF6347;
+background-color: #008B8B;
 }
 footer {
-    background-color: #008080;
+    background-color: #708090;
 }
