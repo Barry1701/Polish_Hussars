@@ -3,10 +3,50 @@ body {
     margin: 0;
     padding: 0;
 }
-header {
+#header {
     background-color: #FF6347;
-    padding: 20px;
+    padding:20px;
+    display: flex;
+    
+    
 }
+#logo {
+   
+  
+    text-decoration: none;
+    color: #000000;
+}
+ 
+
+#menu {
+list-style: none;
+margin-left: auto;
+
+
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    
+   
+    
+}
+.list li {
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
+.list a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+.list a:hover {
+    text-decoration: underline;
+}
+    
+
 main {
 background-color: #008B8B;
 }
