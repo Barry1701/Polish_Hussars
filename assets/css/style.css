@@ -1,7 +1,11 @@
 
+/*Body*/
 body {
     margin: 0;
     padding: 0;
+    font-family: 'El Messiri',
+        sans-serif;
+/*Header*/        
 }
 #header {
     background-color: #FF6347;
@@ -17,7 +21,7 @@ body {
     color: #000000;
 }
  
-
+/*Navigation Bar*/
 #menu {
 list-style: none;
 margin-left: auto;
@@ -46,10 +50,11 @@ margin-left: auto;
     text-decoration: underline;
 }
     
-
-main {
+/*Main Content*/
+#main {
 background-color: #008B8B;
 }
+/*Footer*/
 footer {
     background-color: #708090;
 }
