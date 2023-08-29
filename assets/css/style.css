@@ -19,6 +19,11 @@ body {
   
     text-decoration: none;
     color: #000000;
+   
+}
+#logo h1 {
+    margin: 0;
+    padding: 0;
 }
  
 /*Navigation Bar*/
@@ -62,6 +67,7 @@ display: flex;
 
 }
 .img {
+    
     margin: 0;
         padding: 0;
         width: 100%;
@@ -77,6 +83,7 @@ display: flex;
 }
 #header-logo h2 {
     font-size: 45px;
+    letter-spacing: 2px;
 }
 #header-logo h3 {
     font-size:2em;
