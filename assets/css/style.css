@@ -52,8 +52,35 @@ margin-left: auto;
     
 /*Main Content*/
 #main {
-background-color: #008B8B;
+background-color: #800000;
+display: flex;
 }
+#image {
+    flex: 1;
+    
+
+}
+.img {
+    margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+}
+#header-logo {
+    flex: 1;
+    text-align: center;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #FFFFFF;
+}
+#header-logo h2 {
+    font-size: 45px;
+}
+#header-logo h3 {
+    font-size:2em;
+}
+
 /*Footer*/
 footer {
     background-color: #708090;
