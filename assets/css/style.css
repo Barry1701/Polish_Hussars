@@ -60,6 +60,7 @@ margin-left: auto;
 #main {
 background-color: #800000;
 display: flex;
+flex-wrap: wrap;
 }
 #image {
     flex: 1;
