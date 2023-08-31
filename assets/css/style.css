@@ -14,20 +14,20 @@ body {
     
     
 }
-#logo {
+.logo {
    
   
     text-decoration: none;
     color: #000000;
    
 }
-#logo h1 {
+.logo h1 {
     margin: 0;
     padding: 0;
 }
  
 /*Navigation Bar*/
-#menu {
+.menu {
 list-style: none;
 margin-left: auto;
 
@@ -62,7 +62,7 @@ background-color: #800000;
 display: flex;
 flex-wrap: wrap;
 }
-#image {
+.image {
     flex: 1;
     
 
@@ -74,7 +74,7 @@ flex-wrap: wrap;
         width: 100%;
         height: 100%;
 }
-#header-logo {
+.header-logo {
     flex: 1;
     text-align: center;
     display: flex;
@@ -82,11 +82,11 @@ flex-wrap: wrap;
         justify-content: center;
         color: #FFFFFF;
 }
-#header-logo h2 {
+.header-logo h2 {
     font-size: 45px;
     letter-spacing: 2px;
 }
-#header-logo h3 {
+.header-logo h3 {
     font-size:2em;
 }
 
